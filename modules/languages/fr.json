@@ -1,0 +1,66 @@
+{
+   "help_menu":{
+      "title":"Menu d'aide",
+      "commands":{
+         "help":"Afficher le menu d'aide",
+         "config":"Modifier les magasins et changer la langue du bot",
+         "get":"Afficher les jeux gratuits du moment",
+         "setup":"Gérer les permissions du Free Games Bot (seulement pour les personnes ayants la permission d'administrateur)",
+         "stop":"Arrêter les notifications du Free Games Bot (seulement pour les personnes ayants la permission d'administrateur)",
+         "role":"Assigner un rôle que le bot mentionnera (seulement pour les personnes ayants la permission d'administrateur)"
+      },
+      "support":{
+         "name":"💎 Si vous voulez nous aider avec le développement du bot",
+         "value":"   Vous pouvez voter en cliquant [ici](https://top.gg/bot/698117737175580692)"
+      },
+      "discord":{
+         "name":"🔗 Vous pouvez aussi nous rejoindre sur notre serveur Discord",
+         "value":"  Vous pouvez rejoindre ici [ici](https://discord.gg/wzF9qfC)"
+      }
+   },
+   "commands":{
+      "insufficient_permissions":"Désolé, vous n'avez pas les permissions nécessaires pour faire ça !",
+      "not_setup":"Vous devez me configurer avant d'utiliser cette commande !",
+      "no_args":"Cette commande nécessite des arguments ! (Paramètres)",
+      "setup":{
+         "updated":"La chaine d'annonce a été mise à jour avec succès !",
+         "success1":"Vous êtes prêt, utilisez",
+         "success2":"pour tester les annonces."
+      },
+      "stop":{
+         "success":"Très bien, j'arrête de donner des informations !"
+      },
+      "role":{
+         "tag_a_role":"Vous devez choisir le rôle que vous souhaitez attribuer !",
+         "everyone":"Tout le monde sera notifié !",
+         "role_success":"sera désormais notifié quand un jeu sera gratuit !",
+         "stopped":"Aucun rôle ne sera désigné !"
+      },
+      "config":{
+         "title":"Configuration du Free Games Bot",
+         "description":"Cliquez sur les boutons figurant sous ce message pour changer les magasins ou la langue.",
+         "toggle":"Cliquez sur les options que vous voulez changer.",
+         "language":"Cliquez sur la langue que le robot utilisera."
+      },
+      "invite":{
+         "thanks":"Merci de votre intérêt !"
+      },
+      "setprefix":{
+         "changed":"Préfixe changé en :"
+      }
+   },
+   "free_games_embed_get":{
+      "title":"Jeux gratuits !",
+      "no_games":"Il n'y a pas de jeu gratuit pour le moment !"
+   },
+   "free_games_embed_announce":{
+      "perms_missing":"Autorisations insuffisantes pour annoncer le jeu ! Permissions manquantes :",
+      "free_until":"Gratuit jusqu'au",
+      "state":"état",
+      "support_us":{
+         "name":"Aidez nous",
+         "value":"[Rejoignez notre serveur Discord](https://discordapp.com/invite/wzF9qfC)\n[Avoir le bot](https://top.gg/bot/698117737175580692)"
+      },
+      "footer":"Cliquez sur le nom pour aller sur la page du magasin !"
+   }
+}

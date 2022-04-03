@@ -1,0 +1,66 @@
+{
+  "help_menu": {
+    "title": "Hilfemenü",
+    "commands": {
+      "help": "Bekomme dieses Hilfemenü",
+      "config": "Ändere die Stores und Sprache des Bots",
+      "get": "Sehe alle kostenlosen Spiele",
+      "setup": "Richte den Benachrichtigungskanal ein",
+      "stop": "Stoppe das Senden von Benachrichtigungen durch den Bot",
+      "role": "Weise dem Bot eine Rolle zu, die erwähnt werden soll"
+    },
+    "support": {
+      "name": "💎 Unterstütze uns und die Entwicklung dieses Bots",
+      "value": "   Stimme für diesen Bot [hier](https://top.gg/bot/698117737175580692)"
+    },
+    "discord": {
+      "name": "🔗 Entdecke unsern Discord Server.",
+      "value": "  Dem Server beitreten [hier](https://discord.gg/wzF9qfC)"
+    }
+  },
+  "commands": {
+    "insufficient_permissions": "Nur Administratoren können diesen Befehl verwenden!",
+    "not_setup": "Ich muss eingerichtet sein befor der Befehl verwendet werden kann!",
+    "no_args": "Dieser Befehl erfordert Argumente!",
+    "setup": {
+            "updated": "Der Ankündigungskanal wurde erfolgreich aktualisiert!",
+            "success1": "Der Bot ist einsatzbereit, benutzen",
+            "success2": "um die Ansagen zu testen."
+    },
+    "stop": {
+      "success": "Okay, ich werde aufhören, Benachrichtigungen zu senden!"
+    },
+    "role": {
+      "tag_a_role": "Erwähne die Rolle, die markiert werden soll!",
+      "everyone": "Jeder wird jetzt erwähnt, wenn ein neues Spiel kostenlos ist!",
+      "role_success": "wird jetzt erwähnt, wenn ein neues Spiel kostenlos ist!",
+      "stopped": "Es sind keine Rollen markiert!"
+    },
+        "config": {
+            "title": "Free Games Bot Konfig",
+            "description": "Benutze die Knöpfe unter dieser Nachricht um Sprache und Shops zu ändern.",
+            "toggle": "Klicke auf die Optionen, die geändert werden soll.",
+            "language": "Wähle die neue Sprache aus."
+        },
+        "invite": {
+            "thanks": "Danke für dein Interesse!"
+        },
+        "setprefix": {
+            "changed": "Präfix geändert zu:"
+        }
+  },
+  "free_games_embed_get": {
+    "title": "Gratis Spiele!",
+    "no_games": "Derzeit sind keine kostenlosen Spiele verfügbar."
+  },
+  "free_games_embed_announce": {
+    "perms_missing": "Unzureichende Berechtigungen, um das Spiel anzukündigen! Fehlende Berechtigungen:",
+    "free_until": "Kostenlos bis",
+    "state": "Status",
+    "support_us": {
+      "name": "Unterstütze uns",
+      "value": "[Trete unserem Discord Server bei](https://discordapp.com/invite/wzF9qfC)\n[Lade den Bot ein](https://top.gg/bot/698117737175580692)"
+    },
+    "footer": "Klicke auf den Namen, um zum Store zu kommen."
+  }
+}

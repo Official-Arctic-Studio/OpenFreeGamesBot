@@ -1,0 +1,66 @@
+{
+    "help_menu": {
+        "title": "Menu di Aiuto",
+        "commands": {
+            "help": "Ottieni questo menu di aiuto",
+            "config": "Abilita/disabilita i negozi e cambia la lingua del bot.",
+            "get": "Scopri i giochi che sono attualmente gratuiti",
+            "setup": "Configura il canale per le notifiche",
+            "stop": "Fai smettere al bot di mandare notifiche",
+            "role": "Assegna un ruolo per il bot da menzionare"
+        },
+        "support": {
+            "name": "💎 Se vuoi supportare noi e lo sviluppo di questo bot",
+            "value": "   Puoi votare questo bot cliccando [qui](https://top.gg/bot/698117737175580692)"
+        },
+        "discord": {
+            "name": "🔗 Puoi anche dare un'occhiata al nostro server discord",
+            "value": "  Puoi entrare a fare parte del server cliccando [qui](https://discord.gg/wzF9qfC)"
+        }
+    },
+    "commands": {
+        "insufficient_permissions": "Mi dispiace, non possiedi i permessi per usare questo comando!",
+        "not_setup": "Devi prima configurarmi per usare questo comando!",
+        "no_args": "Questo comando richiede ulteriori informazioni!",
+        "setup": {
+            "updated": "Il canale per gli annunci è stato cambiato con successo!",
+            "success1": "Tutto configurato, usa",
+            "success2": "per testare gli annunci."
+        },
+        "stop": {
+            "success": "Va bene, non manderò più aggiornamenti!"
+        },
+        "role": {
+            "tag_a_role": "Devi taggare il ruolo che vuoi assegnare al bot!",
+            "everyone": "da ora in poi tutti verrano taggati quando un nuovo gioco gratis sarà disponibile!",
+            "role_success": "verrà taggato quando un nuovo gioco gratis sarà disponibile!",
+            "stopped": "Nessun ruolo verrà taggato!"
+        },
+        "config": {
+            "title": "Configurazione Free Games Bot",
+            "description": "Clicca sui pulsanti che trovi sotto questo messaggio per abilitare/disabilitare i negozi online e per cambiare la lingua del bot.",
+            "toggle": "Clicca sull'opzione che vuoi abilitare/disabilitare",
+            "language": "Clicca sulla lingua che vuoi assegnare al bot"
+        },
+        "invite": {
+            "thanks": "Grazie per esserti interessato!"
+        },
+        "setprefix": {
+            "changed": "Il prefisso è stato cambiato a:"
+        }
+    },
+    "free_games_embed_get": {
+        "title": "Giochi Gratis!",
+        "no_games": "Attualmente non ci sono giochi gratuiti disponibili!"
+    },
+    "free_games_embed_announce": {
+        "perms_missing": "Permessi insufficienti per annunciare le offerte! Permessi mancanti:",
+        "free_until": "Gratis fino al",
+        "state": "Stato",
+        "support_us": {
+            "name": "Supportaci",
+            "value": "[Entra a far parte del nostro server discord](https://discordapp.com/invite/wzF9qfC)\n[Invita questo bot](https://top.gg/bot/698117737175580692)"
+        },
+        "footer": "Clicca sul nome per andare al negozio online"
+    }
+}

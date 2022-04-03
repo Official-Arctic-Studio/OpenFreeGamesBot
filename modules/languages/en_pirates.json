@@ -1,0 +1,66 @@
+{
+    "help_menu": {
+        "title": "Help Menu",
+        "commands": {
+            "help": "Get this help menu",
+            "config": "Toggle the stores 'n change the language o' the boat",
+            "get": "Get boats t' loot fer frrre games",
+            "setup": "Setup the notifications channel",
+            "stop": "Stop the boat from sendin' notifications",
+            "role": "Assign a rrrole fer the boat t' mention"
+        },
+        "support": {
+            "name": "💎 If ye wants t' support us 'n the development o' this boat",
+            "value": "   Ye can vote fer this boat by jabbin' [here](https://top.gg/bot/698117737175580692)"
+        },
+        "discord": {
+            "name": "🔗 Ye can also check out the home port, our discord server",
+            "value": "  Ye can join the server [here](https://discord.gg/wzF9qfC)"
+        }
+    },
+    "commands": {
+        "insufficient_permissions": "Ye aint the capitan ye cant use this order!",
+        "not_setup": "Ye 'ave t' set me up afore usin' this command!",
+        "no_args": "This command requires arguments!",
+        "setup": {
+            "updated": "The announcement channel has succesfully been updated!",
+            "success1": "Ye're all setup, use",
+            "success2": "t' test the announcements."
+        },
+        "stop": {
+            "success": "Aye, i will stop sendin' updates!"
+        },
+        "role": {
+            "tag_a_role": "Ye needs t' tag the role ye wants t' assign!",
+            "everyone": "the whole crew will now be tagged when a new game be free!",
+            "role_success": "will now be tagged when a new game be free!",
+            "stopped": "No roles will be tagged!"
+        },
+        "config": {
+            "title": "Free Games Boat Config",
+            "description": "Jab on the buttons listed under this message t' toggle stores 'n t' change the language.",
+            "toggle": "Jab on the options ye wants t' toggle",
+            "language": "Skewer on the language ye wants t' assign t' the boat"
+        },
+        "invite": {
+            "thanks": "Thanks fer yer intrest!"
+        },
+        "setprefix": {
+            "changed": "Prefix changed t':"
+        }
+    },
+    "free_games_embed_get": {
+        "title": "Free Games!",
+        "no_games": "Thar be currently no free loot available!"
+    },
+    "free_games_embed_announce": {
+        "perms_missing": "Insufficient permissions t' announce game! Missin' permissions:",
+        "free_until": "Free Until",
+        "state": "State",
+        "support_us": {
+            "name": "Support us",
+            "value": "[Get on board our discord server](https://discordapp.com/invite/wzF9qfC)\n[Get this bot](https://top.gg/bot/698117737175580692)"
+        },
+        "footer": "Skewer on the name t' loot the free games"
+    }
+}

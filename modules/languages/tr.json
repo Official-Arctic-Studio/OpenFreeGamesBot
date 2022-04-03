@@ -1,0 +1,66 @@
+{
+    "help_menu":{
+        "title":"Yardım Menüsü",
+        "commands":{
+            "help":"Yardım menüsünü açar",
+            "config": "Hangi mağazaların bildirim göndereceğini ve botun dilini ayarla",
+            "get":"Şu an ücretsiz olan oyunları görüntüler",
+            "setup":"Bildirim kanalını ayarlar (sadece yönetici yetkilerine sahip kullanıcılar)",
+            "stop":"Botun bildirim yollamasını kapatır (sadece yönetici yetkilerine sahip kullanıcılar)",
+            "role":"Botun bildirim yollayacağı bir rol seçer (sadece yönetici yetkilerine sahip kullanıcılar)"
+        },
+        "support":{
+            "name":"💎 Bize ve bu botun geliştirilmesine destek olmak istiyorsanız",
+            "value":"   [Buraya](https://top.gg/bot/698117737175580692) tıklayarak bota oy verebilirsiniz"
+        },
+        "discord":{
+            "name":"🔗 Ayrıca Discord sunucumuza da göz atabilirsiniz",
+            "value":"  [Buraya](https://discord.gg/wzF9qfC) tıklayarak sunucuya katılabilirsiniz"
+        }
+    },
+    "commands":{
+        "insufficient_permissions":"Üzgünüm, bu komutu kullanmak için gerekli yetkilere sahip değilsiniz!",
+        "not_setup": "Bu komutu kullanmadan önce botun kurulumunu tamamlamanız gerek!",
+        "no_args": "Bu komutun argümanlarla beraber kullanılması gerek!",
+        "setup":{
+            "updated": "Duyuru kanalı başarıyla güncellendi!",
+            "success1": "Kurulum tamamlandı, kullanıma hazır.",
+            "success2": "duyuruları test edin."
+        },
+        "stop":{
+            "success":"Tamamdır, bildirim göndermeyi bırakıyorum!"
+        },
+        "role":{
+            "tag_a_role":"Belirlemek istediğiniz rolü etiketlemeniz gerekmektedir!",
+            "everyone":"everyone rolü her yeni ücretsiz oyun bildiriminde etiketlenecektir!",
+            "role_success":"rolü her yeni ücretsiz oyun bildiriminde etiketlenecektir!",
+            "stopped": "Herhangi bir rol etiketlenmeyecek!"
+        },
+        "config": {
+            "title": "Free Games Bot Ayarları",
+            "description": "Aşağıdaki butonlara tıklayarak mağazaları açıp kapayabilir, dili seçebilirsiniz.",
+            "toggle": "Değiştirmek istediğiniz ayara tıklayın.",
+            "language": "Botu hangi dilde kullanmak istediğinizi seçin."
+        },
+        "invite": {
+            "thanks": "İlginiz için teşekkürler!"
+        },
+        "setprefix": {
+            "changed": "Önek değiştirildi:"
+        }
+    },
+    "free_games_embed_get":{
+        "title":"Ücretsiz Oyun!",
+        "no_games":"Şu anda hiç ücretsiz oyun bulunmamaktadır!"
+    },
+    "free_games_embed_announce":{
+                "perms_missing": "Botun yetkileri duyuru yapmak için yeterli değil. Eksik yetkiler:",
+        "free_until":"Şu zamana kadar ücretsiz:",
+        "state":"Durumu",
+        "support_us":{
+            "name":"Bizi desteklemek için",
+            "value":"[Discord sunucumuza katıl](https://discordapp.com/invite/wzF9qfC)\n[Botu davet et](https://top.gg/bot/698117737175580692)"
+        },
+        "footer":"Mağazaya gitmek için oyunun ismine tıklayın"
+    }
+}

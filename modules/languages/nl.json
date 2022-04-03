@@ -1,0 +1,66 @@
+{
+    "help_menu":{
+        "title":"Hulp Menu",
+        "commands":{
+            "help":"Krijg dit hulp menu",
+            "config": "Schakel tussen de winkels en verander de taal van de bot",
+            "get":"Krijg de spellen die op dit moment gratis zijn",
+            "setup":"Zet het notificatie kanaal op (alleen voor mensen met beheerder rechten)",
+            "stop":"Voorkom dat de bot meldingen verzendt (alleen voor mensen met beheerder rechten)",
+            "role":"Wijs een rol toe aan de bot om te vermelden (alleen voor mensen met beheerder rechten)"
+        },
+        "support":{
+            "name":"💎 Als je ons en de ontwikkeling van deze bot wilt steunen",
+            "value":"   U kunt op deze bot stemmen door [hier](https://top.gg/bot/698117737175580692) te klikken"
+        },
+        "discord":{
+            "name":"🔗 Neem een kijkje in onze Discord server",
+            "value":"  Je kunt [hier](https://discord.gg/wzF9qfC) aan de server deelnemen"
+        }
+    },
+    "commands":{
+        "insufficient_permissions":"Sorry, je hebt geen toestemming om deze opdracht te gebruiken!",
+        "not_setup": "U moet mij instellen voordat u deze opdracht gebruikt!",
+        "no_args": "Deze opdracht vereist argumenten!",
+        "setup":{
+            "updated": "Het aankondigingskanaal is succesvol bijgewerkt!",
+            "success1": "Je bent helemaal klaar, gebruik",
+            "success2": "om de aankondigingen te testen."
+        },
+        "stop":{
+            "success":"Oké, ik stop met het verzenden van updates!"
+        },
+        "role":{
+            "tag_a_role":"U moet de rol taggen die u wilt toewijzen!",
+            "everyone":"iedereen wordt nu getagd als er een nieuw spel gratis is!",
+            "role_success":"wordt nu getagd wanneer een nieuw spel gratis is!",
+            "stopped": "Er worden geen rollen getagd!"
+        },
+        "config": {
+            "title": "Free Games Bot Configuratie",
+            "description": "Klik op de knoppen onder dit bericht om tussen winkels te schakelen en de taal te wijzigen.",
+            "toggle": "Klik op de opties die u wilt schakelen",
+            "language": "Klik op de taal die je aan de bot wilt toewijzen"
+        },
+        "invite": {
+            "thanks": "Bedankt voor uw interesse!"
+        },
+        "setprefix": {
+            "changed": "Prefix gewijzigd in:"
+        }
+    },
+    "free_games_embed_get":{
+        "title":"Gratis Spellen!",
+        "no_games":"Er zijn op dit moment geen gratis spellen!"
+    },
+    "free_games_embed_announce":{
+         "perms_missing": "Onvoldoende rechten om spel aan te kondigen! Ontbrekende machtigingen:",
+        "free_until":"Gratis tot",
+        "state":"Staat",
+        "support_us":{
+            "name":"Steun ons",
+            "value":"[Neem deel aan onze Discord server](https://discordapp.com/invite/wzF9qfC)\n[Gebruik deze bot](https://top.gg/bot/698117737175580692)"
+        },
+        "footer":"Klik op de naam van het spel om naar de winkel te gaan"
+    }
+}

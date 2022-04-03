@@ -1,0 +1,66 @@
+{
+    "help_menu": {
+        "title": "Help Menu",
+        "commands": {
+            "help": "Get this help menu",
+            "config": "Toggle the stores and change the language of the bot",
+            "get": "Get the games that are currently free",
+            "setup": "Setup the notifications channel",
+            "stop": "Stop the bot from sending notifications",
+            "role": "Assign a role for the bot to mention"
+        },
+        "support": {
+            "name": "💎 If you want to support us and the development of this bot",
+            "value": "   You can vote for this bot by clicking [here](https://top.gg/bot/698117737175580692)"
+        },
+        "discord": {
+            "name": "🔗 You can also check out our discord server",
+            "value": "  You can join the server [here](https://discord.gg/wzF9qfC)"
+        }
+    },
+    "commands": {
+        "insufficient_permissions": "Sorry, you don't have the permission to use this command!",
+        "not_setup": "You have to set me up before using this command!",
+        "no_args": "This command requires arguments!",
+        "setup": {
+            "updated": "The announcement channel has succesfully been updated!",
+            "success1": "You're all setup, use",
+            "success2": "to test the announcements."
+        },
+        "stop": {
+            "success": "Okay, i will stop sending updates!"
+        },
+        "role": {
+            "tag_a_role": "You need to tag the role you want to assign!",
+            "everyone": "everyone will now be tagged when a new game is free!",
+            "role_success": "will now be tagged when a new game is free!",
+            "stopped": "No roles will be tagged!"
+        },
+        "config": {
+            "title": "Free Games Bot Config",
+            "description": "Click on the buttons listed under this message to toggle stores and to change the language.",
+            "toggle": "Click on the options you want to toggle",
+            "language": "Click on the language you want to assign to the bot"
+        },
+        "invite": {
+            "thanks": "Thanks for your intrest!"
+        },
+        "setprefix": {
+            "changed": "Prefix changed to:"
+        }
+    },
+    "free_games_embed_get": {
+        "title": "Free Games!",
+        "no_games": "There are currently no free games available!"
+    },
+    "free_games_embed_announce": {
+        "perms_missing": "Insufficient permissions to announce game! Missing permissions:",
+        "free_until": "Free Until",
+        "state": "State",
+        "support_us": {
+            "name": "Support us",
+            "value": "[Join our discord server](https://discordapp.com/invite/wzF9qfC)\n[Get this bot](https://top.gg/bot/698117737175580692)"
+        },
+        "footer": "Click on the name to go to the store"
+    }
+}

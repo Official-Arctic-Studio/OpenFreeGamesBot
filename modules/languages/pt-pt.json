@@ -1,0 +1,66 @@
+{
+    "help_menu":{
+        "title":"Menu de Ajuda",
+        "commands":{
+            "help":"Obter o Menu de ajuda",
+            "config": "Alterar as plataformas de jogos e alterar o idioma do Bot",
+            "get":"Obter os jogos que estão atualmente gratuitos",
+            "setup":"Configurar o canal de notificações",
+            "stop":"Impedir o bot de enviar notificações",
+            "role":"Atribuir um cargo para que o bot mencione"
+        },
+        "support":{
+            "name":"💎 Se tu quiseres apoiar-nos no desenvolvimento deste Bot",
+            "value":"Precisas de clicar [aqui](https://top.gg/bot/698117737175580692) para votar no Bot"
+        },
+        "discord":{
+            "name":"🔗 Podes consultar também o nosso servidor do Discord",
+            "value":"  Vem unir-te ao servidor por [aqui](https://discord.gg/wzF9qfC)"
+        }
+    },
+    "commands":{ 
+        "insufficient_permissions":"Desculpa, apenas o administrador tem permissão para usar este comando!",
+                "not_setup": "O administrador tem que me configurar antes de usar este comando!",
+        "no_args": "Este comando exige mais informação!",
+        "setup":{
+            "updated": " O Bot foi atualizado com sucesso neste canal!",
+            "success1": "Está tudo pronto, usa",
+            "success2": "para testar o anúncio."
+        },
+        "stop":{
+            "success":"Certo, irei parar de enviar as atualizações!"
+        },
+        "role":{
+            "tag_a_role":"Precisas de mencionar um cargo que tu queiras para ser atribuído!",
+            "everyone":"Agora, todos serão mencionados quando um jogo novo estiver gratuito!",
+            "role_success":"será mencionado a partir de agora quando um jogo novo estiver gratuito!",
+            "stopped": "Nenhum cargo será mencionado!"
+        },
+        "config": {
+            "title": "Configuração no Bot de jogos gratuitos",
+            "description": "Clica nos botões apresentados em baixo para alterar as plataformas de jogos e/ou o idioma!",
+            "toggle": "Clica nas opções de plataformas que desejas retirar/obter",
+            "language": "Clica no idioma que desejas meter no Bot"
+        },
+        "invite": {
+            "thanks": "Agradeço pelo teu interesse!"
+        },
+        "setprefix": {
+            "changed": "O prefixo alterou-se para:"
+        }
+    },
+    "free_games_embed_get":{
+        "title":"Jogos Gratuitos!",
+        "no_games":"Não existem jogos gratuitos disponíveis no momento!"
+    },
+    "free_games_embed_announce":{
+        "perms_missing": "Possui permissões insuficientes para anunciar um jogo! As permissões que faltam são:",
+        "free_until":"Gratuito até",
+        "state":"Estado",
+        "support_us":{
+            "name":"Apoia-nos",
+            "value":"[Junta-te a nós no servidor do Discord](https://discordapp.com/invite/wzF9qfC)\n[Adquira este Bot](https://top.gg/bot/698117737175580692)"
+        },
+        "footer":"Clica no nome do jogo para tu entrares na loja"
+    }
+}
