@@ -35,7 +35,7 @@ const announcement_handler = require("./modules/announcement_handler.js");
 const DBL = require("dblapi.js");
 
 const dbl = new DBL(
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ODExNzczNzE3NTU4MDY5MiIsImJvdCI6dHJ1ZSwiaWF0IjoxNTg4MTA5MDMwfQ.3H8eBsy7sva-JgKRpN_j0TEHcaqfNhokwqeD5pL25bQ",
+  "KEY",
   client
 );
 
