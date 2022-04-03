@@ -1,0 +1,27 @@
+{
+  "name": "freegamesbot",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Official-Arctic-Studio/FreeGamesBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Official-Arctic-Studio/FreeGamesBot/issues"
+  },
+  "homepage": "https://github.com/Official-Arctic-Studio/FreeGamesBot#readme",
+  "dependencies": {
+    "dblapi.js": "^2.4.1",
+    "discord-buttons": "^4.0.0",
+    "discord.js-light": "^3.5.11",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
