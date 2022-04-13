@@ -7,7 +7,6 @@ module.exports = {
     arguments: '',
     admin: true,
     execute(message, args, client, lang) {
-        if (message.guild.id != "664194615817142302") return;
         message.channel.send("commands are: forceannounce | getcurrent | setlangflag | updatelang");
     },
 };

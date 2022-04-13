@@ -4,7 +4,7 @@ const db_handler = require("./modules/db_handler");
 getGames();
 
 function getGames() {
-  fetch("https://www.epicgames.com/store/backend/static/freeGamesPromotions")
+  fetch("https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=NL&allowCountries=NL")
     .then((res) => res.json())
     .then((data) => data.data.Catalog.searchStore.elements)
     .then((games) => {

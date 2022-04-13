@@ -1,6 +1,6 @@
 {
-    "mysql_host": "localhost",
-    "mysql_user": "arcticstudio",
-    "mysql_passwd": "PASSWORD",
+    "mysql_host": "$HOST",
+    "mysql_user": "$USER",
+    "mysql_passwd": "$PASSWORD",
     "mysql_db": "freegames"
 }
