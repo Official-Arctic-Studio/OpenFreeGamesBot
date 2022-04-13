@@ -16,7 +16,6 @@ module.exports = {
     arguments: '',
     admin: true,
     execute(message, args, client, lang) {
-        if (message.guild.id != "664194615817142302") return;
         let guild = client.guilds.cache.find(g => g.id == gid_approve);
         if (!guild) return;
         let channel = guild.channels.cache.find(c => c.id == cid_approve);

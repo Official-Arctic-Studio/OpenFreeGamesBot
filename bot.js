@@ -32,38 +32,12 @@ const { defaultPrefix, token } = require("./config.json");
 const button_handler = require("./modules/button_handler.js");
 const announcement_handler = require("./modules/announcement_handler.js");
 
-const DBL = require("dblapi.js");
-
-const dbl = new DBL(
-  "KEY",
-  client
-);
-
-dbl.on("posted", () => {
-  console.log("\x1b[33m%s\x1b[0m", "[DEBUG/DBL] Posted to DBL!");
-});
-
 client.once("ready", () => {
   console.log(
     "\x1b[32m%s\x1b[0m",
-    `[ONLINE] Bot online! | [ShardID] ${client.shard.ids[0]}`
+    `[ONLINE] Bot online!`
   );
   client.user.setActivity("Free Games");
-  for (let shard = 0; shard < client.shard.count; shard++) {
-    client.queue.set(shard, false);
-    client.doneQueue.set(shard, false);
-  }
-  setInterval(async () => {
-    try {
-      dbl.postStats(
-        client.guilds.cache.size,
-        client.shard.ids[0],
-        client.shard.count
-      );
-    } catch {
-      console.log("Dbl Down!");
-    }
-  }, 600000);
 });
 
 client.login(token);
@@ -143,25 +117,3 @@ client.on("message", async (message) => {
     })
     .catch(console.log);
 });
-
-client.announce = (shardID) => {
-  client.queue.set(shardID, true);
-  if (shardID == client.shard.ids[0]) {
-    announcement_handler.announce(client);
-  }
-};
-
-client.finishedAnnouncing = (shardID) => {
-  client.doneQueue.set(shardID, true);
-};
-
-client.reset = () => {
-  client.doneQueue.sweep((announced) => announced == true);
-  let shards = Array.from(client.doneQueue.keys());
-  if (shards.length == 0) {
-    for (let shard = 0; shard < client.shard.count; shard++) {
-      client.queue.set(shard, false);
-      client.doneQueue.set(shard, false);
-    }
-  }
-};
