@@ -7,7 +7,6 @@ module.exports = {
     arguments: '',
     admin: true,
     execute(message, args, client, lang) {
-        if (message.guild.id != "664194615817142302") return;
         if(args.length < 2)
             return message.channel.send("fu setlangflag [language] [flagEmoji]")
         lang_handler.setlanguageflag(args[0], args[1])

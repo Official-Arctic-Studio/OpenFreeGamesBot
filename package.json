@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js && node bot.js",
+    "bot": "node bot.js",
+    "api": "node api.js",
+    "setup": "node dbsetup.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +24,8 @@
     "dblapi.js": "^2.4.1",
     "discord-buttons": "^4.0.0",
     "discord.js-light": "^3.5.11",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql-import": "^5.0.21"
   },
   "devDependencies": {},
   "description": ""
